@@ -418,3 +418,13 @@ justify-items: center;
         width: 300px; 
       } 
 }
+/* ///////////////////////////////////////////////////////// */
+.ass {
+    font-size: 80px;
+    font-weight: 700;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-size: cover;
+    color: transparent;
+    background-image: url('img/bgt1.png');
+}
