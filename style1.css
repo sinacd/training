@@ -524,6 +524,11 @@ left: 60px;
  
     direction: rtl;
 }
+/* security */
+.hidden {
+    visibility: hidden;
+    height: 0;
+}
 
 
 
@@ -534,9 +539,7 @@ left: 60px;
 
 
 
-
-
-/* media phone */
+/* media phone ------------------------------------------------------------------------------------------------*/
 @media (max-width : 768px) {   
     .navbar .flex {
         flex-direction: column;
@@ -640,7 +643,7 @@ left: 60px;
     }
 
 }
-/* animations */
+/* animations------------------------------------------------------------------------------------------------------------- */
 @keyframes SlideInFromLeft {
     0% {
         transform: translateX(-100%);
@@ -700,7 +703,7 @@ left: 60px;
 
 
 
-/* media tablet*/
+/* media tablet-----------------------------------------------------------------------------------------------------*/
 @media (max-width : 930px ) and (min-width : 768px) {
   
 

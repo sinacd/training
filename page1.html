@@ -33,7 +33,13 @@
         <h2>
             درخواست دمو
         </h2>
-        <form>
+       <form action="" method="post" name="demo"   netlify-honeypot="bot-field"  data-netlify-recaptcha="true" data-netlify="true">
+        <input type="hidden" name="form-name" value="demo">
+        <p class="hidden">
+            <label>
+              Don’t fill this out if you’re human: <input name="bot-field" />
+            </label>
+          </p>
             <div class="form-control">
                 <input type="text" name="name" placeholder="نام" required>
                 
@@ -45,6 +51,7 @@
             <div class="form-control">
                 <input type="email" name="email" placeholder="ایمیل" required>
             </div>
+            <div data-netlify-recaptcha="true"></div>
             <input type="submit" value="ارسال" class="btn btn-primary">
 </form>
     </div>
